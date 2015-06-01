@@ -1,0 +1,13 @@
+name: Colors
+main: com.xxyrana.colors.Colors
+version: 0.1
+commands:
+   colors:
+      description: Displays color codes.
+      usage: /<command>
+      permission: colors.colors
+      permission-message: You don't have <permission>
+permissions:
+    colors.colors:
+        description: Allows players to list colors
+        default: true
